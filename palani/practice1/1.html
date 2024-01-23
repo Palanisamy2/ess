@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <h2>STUDENT REGISTRATION FORM</h2>
+<form method="post" action="ee.php">
+   <fieldset id="fieldset">
+    <div class="ss">
+         <label id="labelfirstname">FIRST NAME:</label>
+              <input type="text" id="firstname" name="sfname" placeholder="enter your firstname" required><br><br>
+         <label id="labellastname">LAST NAME:</label>
+             <input type="text" id="lastname" name="slname" placeholder="enter your lastname" ><br><br>
+         <label id="labelregisternumber">REGISTER NUMBER:</label>
+             <input type="text" id="registernumber" name="srnumber" placeholder="enter register number"required><br><br>
+         <label id="labelcollegename">COLLEGE NAME</label>
+             <input type="text" id="collegename" name="scollegename" placeholder="enter college name" required><br><br>
+        <label id="labelyear">YEAR:</label>
+             <input list="browsers" id="year" name="syear" required>
+             <datalist id="browsers">   <option type="radio" name="I" value="I"><br>
+                <option name="II"  value="II"><BR>
+                <option name="III"  value="III"><BR>
+                <option  name="IV" value="IV"><BR>
+             </datalist><BR><br>
+         <label id="labeldepartment">DEPARTMENT:</label>
+              <input list="browsers1" id="department" name="sdepartment" required>
+                 <datalist id="browsers1">
+                     <option name="CSE"  value="CSE"><BR>
+                     <option name="IT"  value="IT"><BR>
+                     <option name="MECHANICAL"  value="MECHANICAL"><BR>
+                     <option name="ECE"  value="ECE"><BR>
+                     <option name="EEE"  value="EEE"><BR>
+                     <option name="AIDS"  value="AIDS"><BR>    
+             </datalist><BR><br>
+         <label id="labelcourse">COURSE:</label>
+              <input list="browsers2" id="course" name="scourse" required>
+                 <datalist id="browsers2">
+                     <option name="B.TECH"  value="B.TECH"><BR>
+                     <option  name="BE" value="BE"><BR>
+                     <option name="MECHANICAL"  value="MECHANICAL"><BR>
+                     <option  name="ECE"   value="ECE"><BR>
+                     <option name="EEE"  value="EEE"><BR>
+                     <option  name="AIDS" value="AIDS"><BR>    
+                 </datalist><BR>   <br>
+         <label id="labelyearofpassing">YEAR OF PASSING :</label>
+             <input list="browsers3" id="yearofpassing" name="syearofpassing" required>
+                  <datalist id="browsers3">
+                      <option name="2024"  value="2024"><BR>
+                      <option name="2025"   value="2025"><BR>
+                      <option name="2026"   value="2026"><BR>
+                      <option name="2027"   value="2027"><BR>
+                      <option name="2028"   value="2028"><BR>
+                      <option name="2029"   value="2029"><BR>  
+                      <option name="2030"   value="2030"><BR>
+                     <option  name="2031"  value="2031"><BR>
+                     <option  name="2032"  value="2032"><BR>  
+                     <option  name="2033"  value="2033"><BR>  
+                     <option  name="2034"  value="2034"><BR>  
+                     <option  name="2035"  value="2035"><BR>    
+                 </datalist> <br> <br>
+         <label id="labelphonenumber">PHHONE NUMBER:</label>  
+             <input type="text" id="phonenumber" name="sphonenumber" required><br><br>
+         <label id="labelemailid">EMAIL ID:</label> 
+             <input type="text" id="emailid" name="semailid" placeholder="enter your emailID" required><br>  <br>
+         <label id="labeladdress">ADDRESS:</label> 
+             <textarea name="saddress" id="address" placeholder="enter your address" required></textarea> <br><br> <br>
+         <input type="button" id="submit" value="submit" name="ssubmit">
+        </div>
+        </fieldset> 
+     </form>
+</body>
+</html>

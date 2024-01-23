@@ -1,0 +1,69 @@
+body
+{
+    background-image: linear-gradient(to right, green ,white,green);
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:  #24252A;
+    padding: 10px 0px;
+}
+
+header a{
+text-decoration: none;
+color: white;
+}
+
+a{
+    text-decoration: none;
+    }
+a:hover
+{
+color: rgb(0, 255, 170);;
+transition: all 0.3s ease 0s;
+}
+
+.mainphotos
+{
+width: 100%;
+height: 500px;
+display: flex;
+padding: 0;
+}
+img{
+    width: 100%;
+    height: 400px;
+}
+
+.item1,.item2,.item3{
+    color: white;
+    font-weight: 900;
+
+}
+/*.item1:hover,.item2:hover,.item3:hover
+{
+background-color:  rgb(0, 255, 170);
+color: black;
+width: 20%;
+}*/
+
+h1,h5
+{
+text-align: center;
+}
+
+h4{
+    text-align: left;
+    color: black;
+
+}
+p,ul{
+    color: black;
+}
+.place1,.place2,.place3,.place4,.place5,.place6
+{
+    font-family: 'Times New Roman', Times, serif;
+}
